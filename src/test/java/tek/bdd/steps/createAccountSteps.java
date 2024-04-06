@@ -35,7 +35,7 @@ public class createAccountSteps extends seleniumUtilities {
     }
 
     @When("User fill up Sign up Form")
-    public void user_fill_up_sign_up_form(DataTable dataTable) {
+    public void user_filll_up_sign_up_form(DataTable dataTable) {
         //Step 1) Converting Data Table to Map.
         Map<String, String> data = dataTable.asMap();
         String email = data.get("email");
